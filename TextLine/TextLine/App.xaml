@@ -1,0 +1,28 @@
+﻿<Application
+    x:Class="TextLine.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TextLine"
+    RequestedTheme="Light">
+    
+    <Application.Resources>
+        <Style x:Key="HeaderTextBlockStyle" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Segoe UI" />
+            <Setter Property="FontWeight" Value="Light" />
+            <Setter Property="FontSize" Value="48" />
+            <Setter Property="OpticalMarginAlignment" Value="TrimSideBearings" />
+        </Style>
+        <Style x:Key="SubtitleTextBlockStyle" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Segoe UI" />
+            <Setter Property="FontWeight" Value="Normal" />
+            <Setter Property="FontSize" Value="24" />
+            <Setter Property="Foreground" Value="Gray" />
+        </Style>
+        <Style x:Key="TitleTextBlockStyle" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Segoe UI" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="FontSize" Value="18" />
+        </Style>
+    </Application.Resources>
+
+</Application>
